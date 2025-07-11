@@ -1,0 +1,39 @@
+{
+  "name": "create-404-stack",
+  "version": "1.0.2",
+  "author": {
+    "name": "Asadbek Omonboyev",
+    "email": "lastninja294@gmail.com",
+    "url": "https://github.com/lastninja294"
+  },
+  "license": "MIT",
+  "bin": {
+    "create-404-stack": "./dist/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lastninja294/create-404-stack"
+  },
+  "scripts": {
+    "build": "tsup bin/index.ts --out-dir dist --format esm --target node20",
+    "dev": "tsx bin/index.ts"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^24.0.12",
+    "@types/react": "^19.1.8",
+    "@types/semver": "^7.7.0",
+    "@vercel/ncc": "^0.38.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "figlet": "^1.8.1",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.7.0",
+    "ora": "^8.2.0",
+    "semver": "^7.7.2",
+    "zx": "^8.6.2"
+  }
+}
