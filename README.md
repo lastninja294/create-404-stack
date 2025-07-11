@@ -2,7 +2,7 @@
 
 A blazing-fast interactive CLI to scaffold your custom React or Next.js project with your favorite tools — Biome, Tailwind, Husky, Commitlint, and more — in seconds.
 
-![create-404-stack logo](https://raw.githubusercontent.com/yourusername/create-404-stack/main/assets/banner.png)
+![create-404-stack logo](https://raw.githubusercontent.com/lastninja294/create-404-stack/main/public/banner.png)
 
 ## ✨ Features
 
