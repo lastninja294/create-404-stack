@@ -28,8 +28,31 @@ npm install -g create-404-stack
 
 Or use it directly via npx:
 
+npx create-404-stack
+```
+
+## 🛠️ Usage
+
+Create a new project:
+
 ```bash
 npx create-404-stack
+```
+
+## Follow the prompts to:
+- Choose between **Next.js** and **React (Vite)** projects
+- Name your project
+- Select optional tools **(Tailwind, Biome, etc.)**
+
+
+## 📄 License
+MIT © [Omonboyev Asadbek](https://t.me/asadbekomonboyev)
+
+
+
+
+
+
 
 
 

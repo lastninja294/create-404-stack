@@ -16,9 +16,11 @@
   },
   "scripts": {
     "build": "tsup bin/index.ts --out-dir dist --format esm --target node20",
-    "dev": "tsx bin/index.ts"
+    "dev": "tsx bin/index.ts",
+    "release": "tsup bin/index.ts --out-dir dist --format esm --target node20 && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.5",
     "@types/figlet": "^1.7.0",
     "@types/node": "^24.0.12",
     "@types/react": "^19.1.8",
